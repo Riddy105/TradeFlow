@@ -26,6 +26,12 @@ module.exports = {
       boxShadow: {
         custom1: "0px 10px 60px rgba(38, 45, 118, 0.08)",
       },
+      fontFamily: {
+        custom: "Raleway",
+      },
+      backgroundImage: {
+        map: "url('/src/assets/images/Africa-map.png')",
+      },
     },
   },
   plugins: [],

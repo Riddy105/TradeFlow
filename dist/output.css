@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -426,6 +428,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -829,14 +835,6 @@ html {
   width: 80%;
 }
 
-.w-3\/5{
-  width: 60%;
-}
-
-.w-2\/5{
-  width: 40%;
-}
-
 .flex-shrink{
   flex-shrink: 1;
 }
@@ -853,8 +851,8 @@ html {
   flex-grow: 1;
 }
 
-.basis-6\/12{
-  flex-basis: 50%;
+.basis-\[99\%\]{
+  flex-basis: 99%;
 }
 
 .basis-\[30\%\]{
@@ -1352,12 +1350,16 @@ html {
   justify-items: stretch;
 }
 
-.gap-8{
-  gap: 2rem;
+.gap-2{
+  gap: 0.5rem;
 }
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .gap-7{
@@ -1366,10 +1368,6 @@ html {
 
 .gap-3{
   gap: 0.75rem;
-}
-
-.gap-2{
-  gap: 0.5rem;
 }
 
 .gap-y-7{
@@ -1802,18 +1800,13 @@ html {
   border-color: rgb(18 18 18 / 0.2);
 }
 
-.bg-\[\#2E3F40\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(46 63 64 / var(--tw-bg-opacity));
+.bg-\[\#fff\/90\]{
+  background-color: #fff/90;
 }
 
-.bg-blue-50{
+.bg-\[\#ADC8E6\]{
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 220 / var(--tw-bg-opacity));
-}
-
-.bg-black-100\/70{
-  background-color: rgb(18 18 18 / 0.7);
+  background-color: rgb(173 200 230 / var(--tw-bg-opacity));
 }
 
 .bg-blue-200{
@@ -1828,6 +1821,11 @@ html {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+}
+
+.bg-blue-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 220 / var(--tw-bg-opacity));
 }
 
 .bg-blue-400\/50{
@@ -1864,6 +1862,10 @@ html {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-map{
+  background-image: url('/src/assets/images/Africa-map.png');
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -1882,6 +1884,10 @@ html {
 .box-decoration-clone{
   -webkit-box-decoration-break: clone;
           box-decoration-break: clone;
+}
+
+.bg-contain{
+  background-size: contain;
 }
 
 .bg-fixed{
@@ -1911,6 +1917,10 @@ html {
 .bg-clip-text{
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-center{
+  background-position: center;
 }
 
 .bg-repeat{
@@ -1995,6 +2005,11 @@ html {
 .px-5{
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.px-\[50px\]{
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .py-20{
@@ -2097,6 +2112,10 @@ html {
 
 .align-super{
   vertical-align: super;
+}
+
+.font-custom{
+  font-family: Raleway;
 }
 
 .text-3xl{
@@ -2224,14 +2243,14 @@ html {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.text-white{
+.text-\[\#646569\]{
   --tw-text-opacity: 1;
-  color: rgb(245 245 245 / var(--tw-text-opacity));
+  color: rgb(100 101 105 / var(--tw-text-opacity));
 }
 
-.text-black-100{
+.text-\[\#020214\]{
   --tw-text-opacity: 1;
-  color: rgb(18 18 18 / var(--tw-text-opacity));
+  color: rgb(2 2 20 / var(--tw-text-opacity));
 }
 
 .text-blue-50{
@@ -2239,9 +2258,24 @@ html {
   color: rgb(0 0 220 / var(--tw-text-opacity));
 }
 
+.text-black-100{
+  --tw-text-opacity: 1;
+  color: rgb(18 18 18 / var(--tw-text-opacity));
+}
+
+.text-\[\#03292d\]{
+  --tw-text-opacity: 1;
+  color: rgb(3 41 45 / var(--tw-text-opacity));
+}
+
 .text-\[\#ee3123\]{
   --tw-text-opacity: 1;
   color: rgb(238 49 35 / var(--tw-text-opacity));
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(245 245 245 / var(--tw-text-opacity));
 }
 
 .text-\[\#336699\]\/\[\.35\]{
@@ -2830,10 +2864,6 @@ html {
     width: 50%;
   }
 
-  .lg\:w-\[70\%\]{
-    width: 70%;
-  }
-
   .lg\:w-2\/5{
     width: 40%;
   }
@@ -2842,9 +2872,12 @@ html {
     flex-direction: row;
   }
 
-  .lg\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
+  .lg\:items-stretch{
+    align-items: stretch;
+  }
+
+  .lg\:text-\[70px\]{
+    font-size: 70px;
   }
 
   .lg\:text-4xl{
