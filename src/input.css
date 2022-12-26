@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-links {
+  @apply text-black-100 text-base font-bold flex flex-col justify-center md:flex-row gap-10 md:basis-[80%] lg:basis-[60%] items-center absolute md:relative bg-blue-400 md:bg-transparent 
+  top-[10%] right-0 h-screen md:h-auto w-full md:w-auto translate-x-[110%] md:translate-x-0 transition-all duration-1000;
+}
+.nav-open .nav-links {
+  @apply translate-x-0;
+}
+.nav-open [name="menu-outline"] {
+  @apply hidden;
+}
+.nav-open [name="close-outline"] {
+  @apply block;
+}
+.faq-open .faq-para,
+.faq-open .minus-btn {
+  @apply block;
+}
+.faq-open .plus-btn {
+  @apply hidden;
+}
+
+@layer base {
+  html {
+    font-family: Raleway;
+    overflow-x: hidden;
+  }
+}

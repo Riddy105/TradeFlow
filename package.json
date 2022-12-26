@@ -1,0 +1,22 @@
+{
+  "name": "tradeflow",
+  "version": "1.0.0",
+  "description": "Tradeflow landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riddy105/TradeFlow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riddy105/TradeFlow/issues"
+  },
+  "homepage": "https://github.com/Riddy105/TradeFlow#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
