@@ -9,31 +9,33 @@
     <script src="./script.js" defer></script>
   </head>
   <body class="">
-    <header class="w-11/12 mx-auto relative mb-16">
-      <nav class="flex justify-between py-8 items-center mb-8 lg:mb-20">
-        <img src="./src/assets/icons/real.png" alt="" class="" />
-        <ul class="nav-links">
-          <li><a href="#">Who We Are</a></li>
-          <li><a href="#">What We do</a></li>
-          <li><a href="#">Who We Do It For</a></li>
-          <li class="lg:ml-auto">
-            <a
-              href="#"
-              class="text-white text-2xl bg-blue-50 py-2 px-4 rounded-md"
-              >Get Started</a
-            >
-          </li>
-        </ul>
-        <button class="md:hidden mobile-btn">
-          <ion-icon name="menu-outline" class="text-5xl"></ion-icon>
-          <ion-icon name="close-outline" class="text-5xl hidden"></ion-icon>
-        </button>
-      </nav>
-      <div class="flex flex-col items-center lg:flex-row gap-8">
-        <div
-          class="hero-section-text basis-6/12 text-black-100 flex flex-col gap-4 text-center lg:text-start"
+    <header class="relative mb-16">
+      <div class="bg-[#2E3F40] nav-bar-container">
+        <nav
+          class="w-11/12 mx-auto text-white flex justify-between py-8 items-center mb-8 lg:mb-20"
         >
-          <h2 class="text-5xl sm:text-6xl lg:text-7xl font-bold">
+          <h2 class="text-3xl font-bold">TRADEFLOW</h2>
+          <ul class="nav-links text-sm">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products & Services</a></li>
+            <li><a href="#">Enquiries</a></li>
+            <li class="lg:ml-auto">
+              <a
+                href="#"
+                class="text-white text-sm bg-blue-50 py-4 px-5 rounded-md"
+                >Get Started</a
+              >
+            </li>
+          </ul>
+          <button class="md:hidden mobile-btn">
+            <ion-icon name="menu-outline" class="text-5xl"></ion-icon>
+            <ion-icon name="close-outline" class="text-5xl hidden"></ion-icon>
+          </button>
+        </nav>
+      </div>
+      <div class="w-11/12 mx-auto flex flex-col items-center lg:flex-row gap-8">
+        <div class="hero-section-text basis-6/12 text-black-100">
+          <h2 class="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4">
             Franchise your <span class="text-blue-50">Business & Grow</span>
             your Revenue
           </h2>
@@ -41,32 +43,212 @@
             Are you an ambitious business owner looking to grow rapidly and
             firmly across the African continent?
           </p>
-          <p class="font-normal text-lg">
+          <p class="font-normal text-lg mb-6">
             Are you a U.S.-based/U.K.-based/Asia-based company looking to expand
             to the booming African markets?
           </p>
-          <p class="font-semibold text-xl">You are in the right place!</p>
+          <a
+            href="#"
+            class="block text-center text-white text-base bg-blue-50 py-4 px-5 rounded-md w-[35%]"
+            >Get Started</a
+          >
+          <p class="text-base mt-4">
+            Digital solution, short consultation period, single fee.
+          </p>
         </div>
-        <div class="hero-section-image">
-          <img src="./src/assets/icons/Hero section.png" alt="" />
+        <div class="hero-section-mission lg:w-1/2">
+          <h2
+            class="text-white text-lg border border-white rounded-xl py-20 px-4 bg-black-100/70"
+          >
+            We are on a mission to help businesses grow better and faster and
+            reduce the high unemployment rate in Africa through the strength of
+            a well-developed franchising sector.
+          </h2>
         </div>
       </div>
     </header>
     <main>
-      <section class="bg-blue-200 py-10">
-        <div class="w-11/12 mx-auto flex flex-col lg:flex-row">
-          <h2 class="text-3xl basis-6/12">
+      <section class="bg-blue-200 py-10 px-6 text-center flex justify-center">
+        <div class="md:w-1/2">
+          <h2 class="text-3xl mb-8">About Us</h2>
+          <p class="text-3xl mb-8">
             <span class="font-semibold">First of our kind, </span>
             <span class="text-blue-50">Tradeflow Africa</span> is the pioneering
             franchising-tech startup helping businesses expand to new markets
             across Africa.
-          </h2>
-          <div>
-            <img src="" alt="" />
+          </p>
+          <a href="#" class="text-[#ee3123]">LEARN MORE</a>
+        </div>
+      </section>
+      <section class="py-10 w-11/12 mx-auto text-black-100 text-center">
+        <h2 class="text-4xl font-bold mb-8">Ready To Expand Your Business?</h2>
+        <p class="text-3xl mb-20">
+          <span class="text-blue-50">Tradeflow</span> offers diverse set of
+          business expansion options
+        </p>
+        <div class="image-container grid grid-cols-1 md:grid-cols-5 gap-4">
+          <div class="group relative overflow-hidden">
+            <img
+              src="./src/assets/images/franchising.jpg"
+              alt=""
+              class="h-[300px] object-cover w-full grayscale group-hover:grayscale-0 group-hover:scale-[1.1] transition-all duration-1000"
+            />
+            <p
+              class="text-white text-3xl absolute bottom-[20px] left-[20px] scale-[3] opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-1000"
+            >
+              Franchising
+            </p>
+          </div>
+          <div class="group relative overflow-hidden">
+            <img
+              src="./src/assets/images/Licensing.jpg"
+              alt=""
+              class="h-[300px] object-cover w-full grayscale group-hover:grayscale-0 group-hover:scale-[1.1] transition-all duration-1000"
+            />
+            <p
+              class="text-white text-3xl absolute bottom-[20px] left-[20px] scale-[3] opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-1000"
+            >
+              Licensing
+            </p>
+          </div>
+          <div class="group relative overflow-hidden">
+            <img
+              src="./src/assets/images/Distributorship.jpg"
+              alt=""
+              class="h-[300px] object-cover w-full grayscale group-hover:grayscale-0 group-hover:scale-[1.1] transition-all duration-1000"
+            />
+            <p
+              class="text-white text-3xl absolute bottom-[20px] left-[20px] scale-[3] opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-1000"
+            >
+              Distributorship
+            </p>
+          </div>
+          <div class="group relative overflow-hidden">
+            <img
+              src="./src/assets/images/Partnership.jpg"
+              alt=""
+              class="h-[300px] object-cover w-full grayscale group-hover:grayscale-0 group-hover:scale-[1.1] transition-all duration-1000"
+            />
+            <p
+              class="text-white text-3xl absolute bottom-[20px] left-[20px] scale-[3] opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-1000"
+            >
+              Strategic Partnership
+            </p>
+          </div>
+          <div class="group relative overflow-hidden">
+            <img
+              src="./src/assets/images/Agent Network.jpg"
+              alt=""
+              class="h-[300px] object-cover w-full grayscale group-hover:grayscale-0 group-hover:scale-[1.1] transition-all duration-1000"
+            />
+            <p
+              class="text-white text-3xl absolute bottom-[20px] left-[20px] scale-[3] opacity-0 group-hover:scale-100 group-hover:opacity-100 transition-all duration-1000"
+            >
+              Agent Network
+            </p>
           </div>
         </div>
       </section>
-      <section class="pt-7 pb-24 w-11/12 mx-auto">
+      <section class="bg-blue-400 text-center py-7">
+        <div class="w-11/12 mx-auto">
+          <h2 class="text-3xl font-bold mb-8">
+            The Best Solution For Your Ambitious Goals
+          </h2>
+          <p class="text-2xl mb-20 md:w-3/5 mx-auto">
+            Worried about the high financial costs of expanding your business to
+            new markets? Concerned about varying market compliance
+            responsibilities?
+          </p>
+        </div>
+        <div
+          class="box-container w-11/12 md:w-[70%] mx-auto grid grid-cols-1 gap-8 md:grid-cols-2"
+        >
+          <div class="shadow-custom1 bg-white rounded-xl overflow-hidden">
+            <img
+              src="./src/assets/images/Woman.png"
+              alt=""
+              class="w-full object-cover"
+            />
+            <div class="text-box px-4 py-8 text-start">
+              <h2 class="font-bold text-2xl mb-5">
+                Tradeflow for Business Expansion
+              </h2>
+              <p class="text-base">
+                Tradeflow provides less risky and highly affordable business
+                expansion alternatives to entrepreneurs and corporations seeking
+                to enter new markets in Africa
+              </p>
+            </div>
+          </div>
+          <div class="shadow-custom1 bg-white rounded-xl overflow-hidden">
+            <img
+              src="./src/assets/images/Man.png"
+              alt=""
+              class="w-full object-cover"
+            />
+            <div class="text-box px-4 py-8 text-start">
+              <h2 class="font-bold text-2xl mb-5">Tradeflow for Impact</h2>
+              <p class="text-base">
+                Impact-oriented, Tradeflow helping business owners achieve their
+                business expansion goals will create millions of jobs to tackle
+                Africa’s high unemployment rate
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="w-11/12 mx-auto py-10">
+          <h2 class="font-bold text-2xl lg:text-4xl text-center mb-7">
+            Trusted to Deliver
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-7">
+            <div class="flex gap-4 items-start p-6 shadow-custom1">
+              <img src="./src/assets/icons/market.png" alt="" />
+              <div>
+                <h2 class="text-xl font-bold">Access multiple markets</h2>
+                <p class="text-base">
+                  We help you enter new markets simultaneously and acquire
+                  significant market share
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start p-6 shadow-custom1">
+              <img src="./src/assets/icons/diligence.png" alt="" />
+              <div>
+                <h2 class="text-xl font-bold">Due diligence</h2>
+                <p class="text-base">
+                  We take away the hassle and burden in finding trustworthy
+                  expansion partners across Africa
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start p-6 shadow-custom1">
+              <img src="./src/assets/icons/legal.png" alt="" />
+              <div>
+                <h2 class="text-xl font-bold">Basic expansion legal support</h2>
+                <p class="text-base">
+                  Want to protect your Intellectual Property, we provide you
+                  with fundamental legal support through our trusted partners,
+                  including the initial agreement
+                </p>
+              </div>
+            </div>
+            <div class="flex gap-4 items-start p-6 shadow-custom1">
+              <img src="./src/assets/icons/payment.png" alt="" />
+              <div>
+                <h2 class="text-xl font-bold">Remittance support:</h2>
+                <p class="text-base">
+                  With the help of our trusted partners, we ensure you
+                  seamlessly receive your fees from your business expansion
+                  network, anywhere you are located in the world
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <!-- <section class="pt-7 pb-24 w-11/12 mx-auto">
         <h2 class="text-3xl text-center mb-20">
           <span class="text-blue-50">Tradeflow</span> offers diverse set of
           business expansion options
@@ -154,113 +336,11 @@
             </p>
           </div>
         </div>
-      </section>
-      <section class="bg-blue-400">
-        <div
-          class="w-11/12 mx-auto py-10 flex flex-col gap-5 md:gap-4 md:flex-row"
-        >
-          <div class="flex gap-4 items-start md:w-1/2">
-            <img src="./src/assets/icons/worried.png" alt="" class="" />
+      </section> -->
 
-            <h2 class="text-3xl">
-              Worried about the high financial costs of expanding your business
-              to new markets? Concerned about varying market compliance
-              responsibilities?
-              <span class="text-blue-50"> Tradeflow</span> provides less risky
-              and highly affordable business expansion alternatives to
-              entrepreneurs and corporations seeking to enter new markets in
-              Africa
-            </h2>
-          </div>
-          <div class="flex gap-4 items-start md:w-1/2">
-            <img src="./src/assets/icons/impact.png" alt="" class="" />
-
-            <h2 class="text-3xl">
-              Impact-oriented,
-              <span class="text-blue-50"> Tradeflow</span> helping business
-              owners achieve their business expansion goals will create millions
-              of jobs to tackle Africa’s high unemployment rate
-            </h2>
-          </div>
-        </div>
-      </section>
-      <section class="w-11/12 mx-auto py-8 text-black-100">
-        <h2 class="font-bold text-center text-4xl mb-10">
-          Why <span class="text-blue-50">Traderflow?</span>
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-7">
-          <div class="flex gap-4 items-start">
-            <img src="./src/assets/icons/digital.png" alt="" />
-            <div>
-              <h2 class="text-xl font-semibold">Digital solution</h2>
-              <p class="text-base">
-                We are building a digital solution to ensure you have a seamless
-                experience during your business expansion phase. We do the work
-                and you focus on improving your business. Anticipate in 2023!
-              </p>
-            </div>
-          </div>
-          <div class="flex gap-4 items-center">
-            <img src="./src/assets/icons/market.png" alt="" />
-            <div>
-              <h2 class="text-xl font-semibold">
-                Access multiple markets simultaneously
-              </h2>
-            </div>
-          </div>
-          <div class="flex gap-4 items-center">
-            <img src="./src/assets/icons/time.png" alt="" />
-            <div>
-              <h2 class="text-xl font-semibold">Short consultation period</h2>
-            </div>
-          </div>
-          <div class="flex gap-4 items-center">
-            <img src="./src/assets/icons/fee.png" alt="" />
-            <div>
-              <h2 class="text-xl font-semibold">Single fee</h2>
-              <p class="text-base">
-                We only charge a single fee for the entire process
-              </p>
-            </div>
-          </div>
-          <div class="flex gap-4 items-center">
-            <img src="./src/assets/icons/diligence.png" alt="" />
-            <div>
-              <h2 class="text-xl font-semibold">Due diligence</h2>
-              <p class="text-base">
-                We take away the hassle and burden in finding trustworthy
-                expansion partners across Africa
-              </p>
-            </div>
-          </div>
-          <div class="flex gap-4 items-center">
-            <img src="./src/assets/icons/legal.png" alt="" />
-            <div>
-              <h2 class="text-xl font-semibold">
-                Basic expansion legal support
-              </h2>
-              <p class="text-base">
-                Want to protect your Intellectual Property, we provide you with
-                fundamental legal support through our trusted partners,
-                including the initial agreement
-              </p>
-            </div>
-          </div>
-          <div class="flex gap-4 items-center">
-            <img src="./src/assets/icons/payment.png" alt="" />
-            <div>
-              <h2 class="text-xl font-semibold">Remittance support:</h2>
-              <p class="text-base">
-                With the help of our trusted partners, we ensure you seamlessly
-                receive your fees from your business expansion network, anywhere
-                you are located in the world
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      -->
       <section class="bg-blue-400/50">
-        <div class="container-faq w-11/12 lg:w-[70%] mx-auto py-10">
+        <div class="container-faq w-4/5 lg:w-2/5 mx-auto py-10">
           <h2 class="text-3xl text-center font-semibold mb-7">
             Frequently Asked Questions
           </h2>
@@ -347,7 +427,7 @@
         </div>
       </section>
     </main>
-    <footer class="w-11/12 mx-auto">
+    <!-- <footer class="w-11/12 mx-auto">
       <div
         class="grid grid-cols-1 md:grid-cols-3 gap-7 md:gap-0 md:justify-items-center py-7"
       >
@@ -377,10 +457,10 @@
       </div>
       <div class="border-t-2 border-black-50/50">
         <p class="text-sm md:text-base">
-          &copy; 2021 Tradeflow Africa. All right reserved
+          &copy; 2023 Tradeflow Africa. All right reserved
         </p>
       </div>
-    </footer>
+    </footer> -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
