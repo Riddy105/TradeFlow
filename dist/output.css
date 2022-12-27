@@ -832,12 +832,12 @@ body {
   width: 100%;
 }
 
-.w-4\/5{
-  width: 80%;
-}
-
 .w-3\/5{
   width: 60%;
+}
+
+.w-4\/5{
+  width: 80%;
 }
 
 .flex-shrink{
