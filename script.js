@@ -10,11 +10,11 @@ btnEl.addEventListener("click", () => {
   navEl.classList.toggle("nav-open");
 });
 
-window.addEventListener("scroll", () => {
-  window.scrollY > mainSectionCoords.top
-    ? navBarContainer.classList.add("fixed-nav")
-    : navBarContainer.classList.remove("fixed-nav");
-});
+// window.addEventListener("scroll", () => {
+//   window.scrollY > mainSectionCoords.top
+//     ? navBarContainer.classList.add("fixed-nav")
+//     : navBarContainer.classList.remove("fixed-nav");
+// });
 
 faqBlocks.forEach((faqBlock, index) => {
   faqBlock.addEventListener("click", () => {

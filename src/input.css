@@ -36,6 +36,7 @@
   html {
     font-family: Lato;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
   body {
     overflow-x: hidden;
