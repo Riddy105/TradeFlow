@@ -2154,6 +2154,10 @@ body {
   line-height: 2.5rem;
 }
 
+.text-\[26px\]{
+  font-size: 26px;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2855,6 +2859,10 @@ body {
 
   .lg\:w-10\/12{
     width: 83.333333%;
+  }
+
+  .lg\:w-\[70\%\]{
+    width: 70%;
   }
 
   .lg\:w-\[35\%\]{
