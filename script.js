@@ -54,6 +54,6 @@ servicesImage.addEventListener("click", (e) => {
 if (document.location.reload) {
   let url = document.location.href;
   if (url.indexOf("#") != -1) {
-    document.location = "index.html";
+    document.location = "/";
   }
 }
