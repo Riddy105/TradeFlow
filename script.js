@@ -1,5 +1,6 @@
 "use strict";
 const navEl = document.querySelector(`nav`);
+const headerEl = document.querySelector(`header`);
 const navLinks = document.querySelector(`.nav-links`);
 const bodyEl = document.querySelector(`body`);
 const mainEl = document.querySelector("main");
@@ -48,3 +49,11 @@ servicesImage.addEventListener("click", (e) => {
     }, 10000);
   });
 });
+
+// This is to force the page back to index.html on reload in a case where the address contains an #section i.e (index.html/#services) because we are in a particular section of the page.
+if (document.location.reload) {
+  let url = document.location.href;
+  if (url.indexOf("#") != -1) {
+    document.location = "index.html";
+  }
+}
