@@ -812,12 +812,20 @@ body {
   height: 300px;
 }
 
+.h-\[290px\]{
+  height: 290px;
+}
+
 .h-\[430px\]{
   height: 430px;
 }
 
 .h-40{
   height: 10rem;
+}
+
+.h-\[64px\]{
+  height: 64px;
 }
 
 .w-11\/12{
@@ -838,6 +846,10 @@ body {
 
 .w-4\/5{
   width: 80%;
+}
+
+.w-\[64px\]{
+  width: 64px;
 }
 
 .flex-shrink{
@@ -2839,6 +2851,10 @@ body {
 
   .lg\:w-3\/5{
     width: 60%;
+  }
+
+  .lg\:w-10\/12{
+    width: 83.333333%;
   }
 
   .lg\:items-stretch{
