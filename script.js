@@ -43,10 +43,10 @@ servicesImage.addEventListener("click", (e) => {
   servicesDetails.forEach((service) => {
     if (service.id == searchID) {
       service.classList.remove("grayscale");
+      setTimeout(() => {
+        service.classList.add("grayscale");
+      }, 10000);
     }
-    setTimeout(() => {
-      service.classList.add("grayscale");
-    }, 10000);
   });
 });
 
