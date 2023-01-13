@@ -643,8 +643,8 @@ body {
   left: 30px;
 }
 
-.left-\[5px\]{
-  left: 5px;
+.left-\[35px\]{
+  left: 35px;
 }
 
 .isolate{
@@ -2857,6 +2857,10 @@ body {
 }
 
 @media (min-width: 1024px){
+  .lg\:left-\[5px\]{
+    left: 5px;
+  }
+
   .lg\:mb-20{
     margin-bottom: 5rem;
   }
