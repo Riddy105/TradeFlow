@@ -1817,7 +1817,7 @@ body {
 
 .bg-blue-50{
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 220 / var(--tw-bg-opacity));
+  background-color: rgb(18 69 168 / var(--tw-bg-opacity));
 }
 
 .bg-blue-200{
@@ -2272,7 +2272,7 @@ body {
 
 .text-blue-50{
   --tw-text-opacity: 1;
-  color: rgb(0 0 220 / var(--tw-text-opacity));
+  color: rgb(18 69 168 / var(--tw-text-opacity));
 }
 
 .text-black-100{
@@ -2662,10 +2662,12 @@ body {
   justify-content: center;
   gap: 2.5rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  background-color: rgb(18 69 168 / var(--tw-bg-opacity));
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(245 245 245 / var(--tw-text-opacity));
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 1000ms;
@@ -2682,6 +2684,7 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     background-color: transparent;
+    color: inherit;
   }
 }
 
