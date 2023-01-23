@@ -844,8 +844,8 @@ body {
   width: 91.666667%;
 }
 
-.w-\[200px\]{
-  width: 200px;
+.w-\[160px\]{
+  width: 160px;
 }
 
 .w-1\/2{
@@ -2814,6 +2814,10 @@ body {
     display: none;
   }
 
+  .md\:w-\[200px\]{
+    width: 200px;
+  }
+
   .md\:w-1\/2{
     width: 50%;
   }
@@ -2867,10 +2871,6 @@ body {
 
   .lg\:ml-auto{
     margin-left: auto;
-  }
-
-  .lg\:w-auto{
-    width: auto;
   }
 
   .lg\:w-10\/12{
