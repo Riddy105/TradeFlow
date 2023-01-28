@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,7 +9,15 @@
     <link rel="stylesheet" href="./dist/output.css" />
     <script src="./script.js" defer></script>
   </head>
-  <body class="">
+  <body class="dark:bg-blue-600">
+    <button
+      class="theme-toggle bg-blue-500 fixed top-[90%] w-[50px] h-[50px] z-50"
+    >
+      <ion-icon
+        name="contrast-outline"
+        class="text-5xl rotate-180 dark:rotate-0 transition-all duration-1000"
+      ></ion-icon>
+    </button>
     <header class="relative mb-16">
       <div class="nav-bar-container">
         <nav
@@ -36,7 +44,7 @@
               >
             </li>
           </ul>
-          <button class="md:hidden mobile-btn">
+          <button class="md:hidden mobile-btn dark:text-white">
             <ion-icon name="menu-outline" class="text-5xl"></ion-icon>
             <ion-icon name="close-outline" class="text-5xl hidden"></ion-icon>
           </button>
@@ -45,9 +53,11 @@
       <div
         class="w-11/12 lg:w-10/12 mx-auto flex items-center lg:items-stretch flex-row gap-2"
       >
-        <div class="hero-section-text basis-[99%] text-black-100">
+        <div
+          class="hero-section-text basis-[99%] text-black-100 dark:text-grey-300"
+        >
           <h2
-            class="text-5xl sm:text-6xl lg:text-[70px] font-bold mb-4 text-grey-100 lg:w-[70%]"
+            class="text-5xl sm:text-6xl lg:text-[70px] font-bold mb-4 text-grey-100 dark:text-grey-200 lg:w-[70%]"
           >
             Franchise your <span class="text-blue-50">Business, Grow</span>
             your Revenue
@@ -78,7 +88,7 @@
     <main>
       <section
         id="about-us"
-        class="bg-blue-200 py-10 px-6 text-center flex justify-center text-grey-50"
+        class="bg-blue-200 dark:bg-blue-700 py-10 px-6 text-center flex justify-center text-grey-50 dark:text-grey-400"
       >
         <div class="md:w-[70%]">
           <h2 class="text-base mb-8">About Us</h2>
@@ -90,7 +100,9 @@
           <a href="#services-details" class="text-[#ee3123]">LEARN MORE</a>
         </div>
       </section>
-      <section class="py-10 w-11/12 mx-auto text-grey-100 text-center">
+      <section
+        class="py-10 w-11/12 mx-auto text-grey-100 dark:text-grey-300 text-center"
+      >
         <h2 class="text-4xl font-bold mb-8">Ready To Expand Your Business?</h2>
         <p class="text-3xl mb-20">
           Tradeflow offers diverse set of business expansion options
@@ -195,7 +207,9 @@
           </a>
         </div>
       </section>
-      <section class="bg-blue-400 text-center py-7 text-grey-100">
+      <section
+        class="bg-blue-400 dark:bg-blue-700 text-center py-7 text-grey-100 dark:text-grey-400"
+      >
         <div class="w-11/12 mx-auto">
           <h2 class="text-3xl font-bold mb-8">
             The Best Solution for Your Ambitious Goals
@@ -211,7 +225,9 @@
         <div
           class="box-container w-11/12 md:w-[70%] mx-auto grid grid-cols-1 gap-8 md:grid-cols-2"
         >
-          <div class="shadow-custom1 bg-white rounded-xl overflow-hidden">
+          <div
+            class="shadow-custom1 bg-white dark:bg-blue-600 rounded-xl overflow-hidden"
+          >
             <img
               src="./src/assets/images/Business expansion-2.jpg"
               alt=""
@@ -229,7 +245,9 @@
               <a href="#CTAs" class="text-blue-50">Get Started</a>
             </div>
           </div>
-          <div class="shadow-custom1 bg-white rounded-xl overflow-hidden">
+          <div
+            class="shadow-custom1 bg-white dark:bg-blue-600 rounded-xl overflow-hidden"
+          >
             <img
               src="./src/assets/images/impact-2.jpg"
               alt=""
@@ -314,38 +332,44 @@
           </div>
         </div>
       </section>
-      <section id="CTAs" class="bg-blue-400">
+      <section id="CTAs" class="bg-blue-400 dark:bg-blue-700">
         <div
           class="w-3/5 mx-auto lg:w-full flex flex-col lg:flex-row gap-7 justify-center py-12 text-center"
         >
           <a
             href="https://forms.gle/MJpCUcxTPJAabxyk9"
-            class="bg-blue-50 text-white md:text-lg py-5 px-5 rounded-lg"
+            class="bg-blue-50 text-white md:text-lg py-5 px-5 rounded-lg dark:font-bold"
             target="_blank"
             >I want to expand my business
           </a>
           <a
             href="https://forms.gle/8Jic37ezEomtnhTS7"
-            class="bg-blue-50 text-white md:text-lg py-5 px-5 rounded-lg"
+            class="bg-blue-50 text-white md:text-lg py-5 px-5 rounded-lg dark:font-bold"
             target="_blank"
           >
             I want access to business opportunities
           </a>
           <a
             href="mailto:talktous@tradeflow.africa"
-            class="bg-blue-50 text-white md:text-lg py-5 px-5 rounded-lg"
+            class="bg-blue-50 text-white md:text-lg py-5 px-5 rounded-lg dark:font-bold"
             >I want to partner with Tradeflow
           </a>
         </div>
       </section>
-      <section id="trusted-to-deliver" class="text-grey-100">
+      <section id="trusted-to-deliver" class="text-grey-100 dark:text-grey-400">
         <div class="w-11/12 mx-auto py-10">
           <h2 class="font-bold text-2xl lg:text-4xl text-center mb-7">
             Trusted to Deliver
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-y-7 gap-x-7">
-            <div class="flex gap-4 items-start p-6 shadow-custom1">
-              <img src="./src/assets/icons/market.png" alt="" />
+            <div
+              class="flex gap-4 items-start p-6 shadow-custom1 dark:bg-blue-700"
+            >
+              <img
+                src="./src/assets/icons/market.png"
+                alt=""
+                class="dark:bg-white"
+              />
               <div>
                 <h2 class="text-xl font-bold">Access multiple markets</h2>
                 <p class="text-base">
@@ -354,11 +378,13 @@
                 </p>
               </div>
             </div>
-            <div class="flex gap-4 items-start p-6 shadow-custom1">
+            <div
+              class="flex gap-4 items-start p-6 shadow-custom1 dark:bg-blue-700"
+            >
               <img
                 src="./src/assets/icons/due diligence.png"
                 alt=""
-                class="w-[64px] h-[64px]"
+                class="w-[64px] h-[64px] dark:bg-white"
               />
               <div>
                 <h2 class="text-xl font-bold">Due diligence</h2>
@@ -369,8 +395,10 @@
                 </p>
               </div>
             </div>
-            <div class="flex gap-4 items-start p-6 shadow-custom1">
-              <img src="./src/assets/icons/legal.png" alt="" />
+            <div
+              class="flex gap-4 items-start p-6 shadow-custom1 dark:bg-blue-700"
+            >
+              <img src="./src/assets/icons/legal.png" alt="" class="bg-white" />
               <div>
                 <h2 class="text-xl font-bold">Basic expansion legal support</h2>
                 <p class="text-base">
@@ -380,8 +408,14 @@
                 </p>
               </div>
             </div>
-            <div class="flex gap-4 items-start p-6 shadow-custom1">
-              <img src="./src/assets/icons/payment.png" alt="" />
+            <div
+              class="flex gap-4 items-start p-6 shadow-custom1 dark:bg-blue-700"
+            >
+              <img
+                src="./src/assets/icons/payment.png"
+                alt=""
+                class="bg-white"
+              />
               <div>
                 <h2 class="text-xl font-bold">Remittance support</h2>
                 <p class="text-base">
@@ -395,13 +429,18 @@
         </div>
       </section>
 
-      <section id="faqs" class="bg-blue-400/50">
+      <section
+        id="faqs"
+        class="bg-blue-400/50 dark:bg-blue-600 dark:text-white"
+      >
         <div class="container-faq w-4/5 lg:w-3/5 mx-auto py-10">
           <h2 class="text-3xl text-center font-semibold mb-7">
             Frequently Asked Questions
           </h2>
           <div class="flex flex-col gap-8">
-            <div class="p-4 border-2 border-black-100/20 faq-block">
+            <div
+              class="p-4 border-2 border-black-100/20 faq-block dark:border-white/70"
+            >
               <div class="flex justify-between items-center mb-4">
                 <h2 class="font-semibold text-xl text-blue-50">
                   How many markets can I expand to in Africa?
@@ -417,7 +456,9 @@
                 you desire.
               </p>
             </div>
-            <div class="p-4 border-2 border-black-100/20 faq-block">
+            <div
+              class="p-4 border-2 border-black-100/20 faq-block dark:border-white/70"
+            >
               <div class="flex justify-between items-center mb-4">
                 <h2 class="font-semibold text-xl text-blue-50">
                   How do I protect myself and my business in the expansion
@@ -434,7 +475,9 @@
                 and your expansion partners.
               </p>
             </div>
-            <div class="p-4 border-2 border-black-100/20 faq-block">
+            <div
+              class="p-4 border-2 border-black-100/20 faq-block dark:border-white/70"
+            >
               <div class="flex justify-between items-center mb-4">
                 <h2 class="font-semibold text-xl text-blue-50">
                   How do I receive agreed fees from my expansion partners?
@@ -450,7 +493,9 @@
                 you are located in the world.
               </p>
             </div>
-            <div class="p-4 border-2 border-black-100/20 faq-block">
+            <div
+              class="p-4 border-2 border-black-100/20 faq-block dark:border-white/70"
+            >
               <div class="flex justify-between items-center mb-4">
                 <h2 class="font-semibold text-xl text-blue-50">
                   What do I pay Tradeflow?
@@ -464,7 +509,9 @@
                 We charge a competitive brokerage fee.
               </p>
             </div>
-            <div class="p-4 border-2 border-black-100/20 faq-block">
+            <div
+              class="p-4 border-2 border-black-100/20 faq-block dark:border-white/70"
+            >
               <div class="flex justify-between items-center mb-4">
                 <h2 class="font-semibold text-xl text-blue-50">
                   In addition to helping to find vetted and trusted expansion

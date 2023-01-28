@@ -1,4 +1,5 @@
 "use strict";
+const html = document.querySelector("html");
 const navEl = document.querySelector(`nav`);
 const headerEl = document.querySelector(`header`);
 const navLinks = document.querySelector(`.nav-links`);
@@ -10,6 +11,7 @@ const faqBtns = document.querySelectorAll(".faq-button");
 const navBarContainer = document.querySelector(".nav-bar-container");
 const servicesImage = document.querySelector(".services-image-container");
 const servicesInDetails = document.querySelector(".services-in-details");
+const themeToggleBtn = document.querySelector(".theme-toggle");
 const mainSectionCoords = mainEl.getBoundingClientRect();
 btnEl.addEventListener("click", () => {
   navEl.classList.toggle("nav-open");
@@ -57,3 +59,8 @@ if (document.location.reload) {
     document.location = "/";
   }
 }
+
+// IMPLEMENTING DARK MODE
+themeToggleBtn.addEventListener("click", () => {
+  html.classList.toggle("dark");
+});

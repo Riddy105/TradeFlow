@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./**/*.{html,js}"],
   theme: {
     extend: {
@@ -12,6 +13,8 @@ module.exports = {
           300: "#2F327D",
           400: "#F2F2FF",
           500: "#ADC8E6",
+          600: "#0F172A", // Tailwind's background on dark mode
+          700: "#17233F", // Another variation of dark blue for dark mode
         },
         red: {
           50: "#FF0000",
@@ -23,6 +26,9 @@ module.exports = {
         grey: {
           50: "#646569",
           100: "#03292d",
+          200: "#e2e8f0", // Tailwind's grey on black background
+          300: "#ccc",
+          400: "#ddd",
         },
       },
       boxShadow: {
