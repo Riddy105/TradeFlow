@@ -63,4 +63,6 @@ if (document.location.reload) {
 // IMPLEMENTING DARK MODE
 themeToggleBtn.addEventListener("click", () => {
   html.classList.toggle("dark");
+  const icon = themeToggleBtn.children[0];
+  icon.name = icon.name == "moon" ? "sunny" : "moon";
 });
