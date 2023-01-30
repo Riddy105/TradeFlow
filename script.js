@@ -29,7 +29,8 @@ navLinks.addEventListener("click", () => {
 // });
 
 faqBlocks.forEach((faqBlock, index) => {
-  faqBlock.addEventListener("click", () => {
+  const header = faqBlock.children[0]; // The first div in the faq-block should be the only clickable area capable of opening and closing the FAQ
+  header.addEventListener("click", () => {
     faqBlock.classList.toggle("faq-open");
   });
 });
