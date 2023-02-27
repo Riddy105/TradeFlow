@@ -40,15 +40,15 @@ module.exports = {
       backgroundImage: {
         map: "url('/src/assets/images/Africa-map.png')",
         franchising:
-          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/franchising.jpg")',
+          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/franchising 1.jpg")',
         licensing:
-          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/licensing.jpg")',
+          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/licensing 1.jpg")',
         distributorship:
-          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/distributorship.jpg")',
+          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/distributorship 1.jpg")',
         partnership:
-          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Partnership.jpg")',
+          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Partnership 1.jpg")',
         agent:
-          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Agent Network.jpg")',
+          'linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Agent Network 1.jpg")',
       },
     },
   },

@@ -1739,6 +1739,14 @@ body {
   border-bottom-left-radius: 0.25rem;
 }
 
+.rounded-tr-xl{
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-br-xl{
+  border-bottom-right-radius: 0.75rem;
+}
+
 .rounded-tl{
   border-top-left-radius: 0.25rem;
 }
@@ -1753,14 +1761,6 @@ body {
 
 .rounded-bl{
   border-bottom-left-radius: 0.25rem;
-}
-
-.rounded-tr-xl{
-  border-top-right-radius: 0.75rem;
-}
-
-.rounded-br-xl{
-  border-bottom-right-radius: 0.75rem;
 }
 
 .border-2{
@@ -1892,38 +1892,28 @@ body {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-red-100{
-  --tw-bg-opacity: 1;
-  background-color: rgb(25 14 215 / var(--tw-bg-opacity));
-}
-
-.bg-red-50{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
 .bg-map{
   background-image: url('/src/assets/images/Africa-map.png');
 }
 
 .bg-franchising{
-  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/franchising.jpg");
+  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/franchising 1.jpg");
 }
 
 .bg-licensing{
-  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/licensing.jpg");
+  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/licensing 1.jpg");
 }
 
 .bg-distributorship{
-  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/distributorship.jpg");
+  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/distributorship 1.jpg");
 }
 
 .bg-partnership{
-  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Partnership.jpg");
+  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Partnership 1.jpg");
 }
 
 .bg-agent{
-  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Agent Network.jpg");
+  background-image: linear-gradient( to bottom, transparent 0%, black 100% ), url("/src/assets/images/Agent Network 1.jpg");
 }
 
 .decoration-slice{

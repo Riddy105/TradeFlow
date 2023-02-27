@@ -67,3 +67,24 @@ themeToggleBtn.addEventListener("click", () => {
   const icon = themeToggleBtn.children[0];
   icon.name = icon.name == "moon" ? "sunny" : "moon";
 });
+
+const ridwan = {
+  name: "Ridwan",
+  course: "Microbiology",
+  printDetails: function (age) {
+    console.log(
+      `My name is ${this.name}, I am ${age || 22} years old and I studies ${
+        this.course
+      }`
+    );
+  },
+};
+const rocky = {
+  name: "Roqeebat",
+  course: "Nursing",
+  // printDetails: function () {
+  //   console.log(`My name is ${this.name} and I studies ${this.course}`);
+  // },
+};
+const age = [34];
+const inter = ridwan.printDetails.bind(rocky);
